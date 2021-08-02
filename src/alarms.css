@@ -1,0 +1,10 @@
+ul:not(:empty) {
+    border: #929292 solid 1px;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    padding: 5px;
+}

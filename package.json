@@ -1,0 +1,27 @@
+{
+  "name": "stencil-bug1",
+  "version": "1.0.0",
+  "description": "Stencil Bug #1",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivier65/stencil-bug1.git"
+  },
+  "scripts": {
+    "build": "stencil build --no-cache && copyfiles -u 1 ./src/index.html ./www",
+    "serve": "stencil serve"
+  },
+  "author": "olivier65",
+  "license": "ISC",
+  "homepage": "https://github.com/olivier65/stencil-bug1#readme",
+  "dependencies": {
+    "@stencil/core": "2.6.0",
+    "@stencil/store": "1.4.1"
+  },
+  "devDependencies": {
+    "copyfiles": "2.4.1",
+    "tslib": "2.3.0",
+    "typescript": "4.3.5",
+    "workbox-build": "6.1.5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "incremental": false,
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["ESNext.String"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "removeComments": true,
+    "importHelpers": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Additional Checks */
+    "importsNotUsedAsValues": "error",
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "types": ["node"],
+    "esModuleInterop": true,
+
+    /* Experimental Options */
+    "experimentalDecorators": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/*.tsx",
+    "node_modules/@stencil/core/compiler/lib.dom.d.ts"
+  ]
+}
