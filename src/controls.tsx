@@ -1,5 +1,5 @@
-import {Component, Event, EventEmitter, h} from '@stencil/core'
-import {Alarm, state} from "./store";
+import {Component, h} from '@stencil/core'
+import {state} from "./store";
 
 @Component({
     tag: "app-controls",
@@ -7,10 +7,6 @@ import {Alarm, state} from "./store";
     shadow: true
 })
 export class Controls {
-
-    // Uncomment the next line and tsc will put:
-    //   Property 'alarmsUpdated' has no initializer and is not definitely assigned in the constructor.
-    //@Event() alarmsUpdated: EventEmitter<Alarm[]>;
 
     private alarmIndex = 0
 
